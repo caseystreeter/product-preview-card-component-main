@@ -8,15 +8,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 0;
+  border-radius: 7px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .card .left-side {
@@ -26,7 +28,7 @@ body {
 }
 
 .card .left-side img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .card .right-side {
@@ -36,7 +38,10 @@ body {
   background-color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 30px;
+  padding-bottom: 19.5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
 }
 
 .perfume {
@@ -52,7 +57,7 @@ body {
 }
 
 .main-text {
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   font-family: Verdana;
   font-size: 12px;
   color: grey;
