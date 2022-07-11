@@ -1,4 +1,103 @@
 body {
   background-color: seashell;
 }
+
+.card {
+  height: 50%;
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 0;
+}
+
+.card .left-side {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+.card .left-side img {
+  max-width: 100%;
+}
+
+.card .right-side {
+  float: right;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px;
+}
+
+.perfume {
+  letter-spacing: 6px;
+  color: grey;
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+.title-text {
+  font-family: Times New Roman;
+  font-size: 28px;
+}
+
+.main-text {
+  line-height: 1.5rem;
+  font-family: Verdana;
+  font-size: 12px;
+  color: grey;
+  padding-bottom: .5rem;
+}
+
+.prices {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: .5rem;
+}
+
+.updated-price {
+  float: left;
+  margin-right: 1.5rem;
+  font-size: 24px;
+  color: seagreen;
+  font-family: Helvetica;
+}
+
+.original-price {
+  float: right;
+  font-size: 12px;
+  padding-top: .4rem;
+  color: grey;
+}
+
+.button {
+  width: 98%;
+  background-color: seagreen;
+  color: white;
+  border-radius: 7px;
+  line-height: 5px;
+}
+
+.btn-icon {
+  float: left;
+  padding-top: .7rem;
+  padding-left: 3rem;
+}
+
+.btn-text {
+  float: right;
+  padding-right: 3rem;
+}
 /*# sourceMappingURL=styles.css.map */

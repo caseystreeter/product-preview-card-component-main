@@ -1,3 +1,95 @@
 body{
     background-color: seashell;
 }
+
+.card{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 0;
+
+    .left-side{
+        // position: relative;
+        float: left;
+        height: 100%;
+        width: 100%;
+
+        img{
+            // height: 60%;
+            max-width: 100%;
+        }
+    }
+
+    .right-side{
+        // position: relative;
+        float: right;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+}
+
+.perfume{
+    letter-spacing: 6px;
+    color: grey;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+.title-text{
+    font-family: Times New Roman;
+    font-size: 28px;
+}
+
+.main-text{
+    line-height: 1.5rem;
+    font-family: Verdana;
+    font-size: 12px;
+    color: grey;
+    padding-bottom: .5rem;
+}
+
+.prices{
+    display: inline-block;
+    align-items: center;
+    padding-bottom: .5rem;
+}
+
+.updated-price{
+    float: left;
+    margin-right: 1.5rem;
+    font-size: 24px;
+    color: seagreen;
+    font-family: Helvetica;
+}
+
+.original-price{
+    float: right;
+    font-size: 12px;
+    padding-top: .4rem;
+    color: grey;
+}
+
+.button{
+    width: 98%;
+    background-color: seagreen;
+    color: white;
+    border-radius: 7px;
+    line-height: 5px;
+}
+
+.btn-icon{
+    float: left;
+    padding-top: .7rem;
+    padding-left: 3rem;
+}
+
+.btn-text{
+    float: right;
+    padding-right: 3rem;
+}
