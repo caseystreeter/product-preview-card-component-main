@@ -3,8 +3,8 @@ body{
 }
 
 .card{
-    height: 50%;
-    width: 35%;
+    height: 75%;
+    width: 40%;
     display: flex;
     // align-items: center;
     justify-content: center;
@@ -28,13 +28,13 @@ body{
     .right-side{
         // position: relative;
         float: right;
-        height: 100%;
-        width: 100%;
+        // height: 100%;
+        width: 90%;
         background-color: white;
         box-sizing: border-box;
-        padding-bottom: 19.5px;
+        // padding-bottom: 27px;
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 27px;
         padding-top: 0px;
 
     }
@@ -44,47 +44,49 @@ body{
     letter-spacing: 6px;
     color: grey;
     font-family: Verdana;
-    font-size: 10px;
+    font-size: 12px;
+    padding-top: 1rem;
 }
 
 .title-text{
-    font-family: Times New Roman;
+    font-family: 'Fraunces', serif;
     font-size: 28px;
-    // line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .main-text{
     line-height: 1.2rem;
-    font-family: Verdana;
-    font-size: 12px;
-    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
     padding-bottom: .5rem;
 }
 
 .prices{
     display: inline-block;
     align-items: center;
-    padding-bottom: .5rem;
+    padding-bottom: 1rem;
 }
 
 .updated-price{
     float: left;
-    margin-right: 1.5rem;
-    font-size: 24px;
-    color: seagreen;
-    font-family: Helvetica;
+    margin-right: 1.3rem;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
 }
 
 .original-price{
     float: right;
     font-size: 12px;
-    padding-top: .4rem;
+    padding-top: .5rem;
     color: grey;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button{
-    width: 98%;
-    background-color: seagreen;
+    width: 90%;
+    background-color: hsl(158, 36%, 37%);
     color: white;
     border-radius: 7px;
     line-height: 5px;
@@ -92,11 +94,15 @@ body{
 
 .btn-icon{
     float: left;
-    padding-top: .7rem;
+    padding-top: .5rem;
     padding-left: 3rem;
 }
 
 .btn-text{
     float: right;
-    padding-right: 3rem;
+    padding-right: 2.8rem;
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+    }
 }
