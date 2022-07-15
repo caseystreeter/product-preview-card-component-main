@@ -23,7 +23,6 @@ body{
 .left-side{
     width: 50%;
     height: 450px;
-    // background-size: cover;
     img{
         height: 100%;
         border-radius: 8px 0 0 8px;
@@ -37,9 +36,6 @@ body{
     width: 50%;
     padding: 32px;
     border-radius: 0 8px 8px 0;
-    // padding-bottom: 0px;
-    // padding-left: 30px;
-    // padding-right: 27px;
     padding-top: 10px;
 
 }
@@ -89,7 +85,6 @@ body{
     justify-content: right;
     font-size: 13px;
     padding-top: .82rem;
-    // padding-left: 12px;
     padding-right: 2.6rem;
     color: grey;
     font-family: 'Montserrat', sans-serif;
@@ -126,11 +121,8 @@ body{
 
 footer{
     position: absolute;
-    // padding: 10px 10px 0px 20px;
-    // bottom: 0;
     width: 100%;
     padding-bottom: .5rem;
-    // margin: 0 auto;
     display: flex;
     top: 97%;
     font-size: 10px;
