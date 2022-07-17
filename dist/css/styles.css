@@ -30,6 +30,8 @@ body {
 .left-side {
   width: 50%;
   height: 450px;
+  background: url(/images/image-product-desktop.jpg);
+  background-size: cover;
 }
 
 .left-side img {
@@ -126,6 +128,7 @@ body {
   border: none;
   line-height: 3px;
   height: 48px;
+  cursor: pointer;
 }
 
 .btn-icon {
@@ -139,6 +142,10 @@ body {
   padding-left: 11px;
   padding-right: 11px;
   font-weight: 500;
+}
+
+.button:hover {
+  background-color: #1A4032;
 }
 
 footer {
@@ -156,5 +163,70 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .card {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 343px;
+    height: 611px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .left-side {
+    height: 240px;
+    width: auto;
+    padding-bottom: 50px;
+    border-radius: 10px 10px 0 0;
+    background: url(/images/image-product-mobile.jpg);
+    background-size: cover;
+  }
+  .left-side img {
+    height: auto;
+    width: 100%;
+  }
+  .right-side {
+    padding: 24px;
+    height: 371px;
+    background-color: white;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+  .perfume {
+    padding-top: 0;
+    padding-bottom: 13px;
+  }
+  .title-text {
+    font-size: 31px;
+    padding-top: 0;
+    padding-bottom: 13px;
+  }
+  .main-text {
+    font-size: 13px;
+    padding-right: 8px;
+  }
+  .prices {
+    padding-bottom: 17px;
+  }
+  .updated-price {
+    padding-top: 24px;
+    padding-right: 0;
+  }
+  .original-price {
+    padding-top: 36.5px;
+    padding-right: 6.3rem;
+  }
+  .btn-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
