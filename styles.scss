@@ -23,7 +23,7 @@ body{
 .left-side{
     width: 50%;
     height: 450px;
-    background: url(images/image-product-desktop.jpg);
+    background: url(../images/image-product-desktop.jpg);
     background-size: cover;
     img{
         height: 100%;
@@ -158,7 +158,7 @@ footer{
         width: auto;
         padding-bottom: 50px;
         border-radius: 10px 10px 0 0;
-        background: url(images/image-product-mobile.jpg);
+        background: url(../images/image-product-mobile.jpg);
         background-size: cover;
         img{
             height: auto;
